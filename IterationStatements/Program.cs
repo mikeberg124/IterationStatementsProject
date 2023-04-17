@@ -13,7 +13,7 @@ namespace IterationStatements
 
             var numbers = new List<int>();
 
-            int num = 1;
+            int num = 0;
 
             do
             {
@@ -23,7 +23,7 @@ namespace IterationStatements
 
             } while (num < 100);
             
-
+            //do while list, incrementing by 1, add num to collection, ref. num inside method
 
 
 
@@ -39,7 +39,7 @@ namespace IterationStatements
 
             }
 
-
+            //while loop- incrementing by 1, add num to collection
 
             Console.WriteLine("Increase");
 
@@ -50,17 +50,17 @@ namespace IterationStatements
 
                 }
 
-
+                
 
 
 
             Console.WriteLine("");
             Console.WriteLine("Decrease");
-               
-                
 
-                for (int i = 199; i <= numbers.Count && i >= 0 ; i--) ;
-                
+
+
+            for (int i = 199; i <= numbers.Count && i >= 0; i--) 
+              
 
                     Console.WriteLine($"{numbers[i]}");
 
